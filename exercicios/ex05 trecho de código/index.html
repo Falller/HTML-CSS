@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trecho de Código em Python</title>
+</head>
+<body>
+    <h1>Trecho de Código em Python</h1>
+
+    <p>Aqui abaixo vai o código em Python</p>
+
+    <pre>
+        <code>
+            n = int(input("Que termo deseja encontrar: "))
+            ultimo=1
+            penultimo=1
+
+
+            if (n==1) or (n==2):
+            print("1")
+            else:
+                count=3
+                while count <= n:
+                    termo = ultimo + penultimo
+                    penultimo = ultimo
+                    ultimo = termo
+                    count += 1
+                print(termo)
+        </code>
+    </pre>
+</body>
+</html>
