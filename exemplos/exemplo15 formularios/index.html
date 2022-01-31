@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulários</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label name="nome">Nome: </label>
+            <input name= "nome" type="text">
+        </div>
+        <div>
+            Senha: <input name= "senha" type="password">
+        </div>
+        <div>
+            <label name="curso">Selecione: </label>
+            <select name="curso">
+                <option>Selecione...</option>
+                <option value="WFR">WEB FRONTEND & REACT</option>
+                <option value="WFS">WEB FULLSTACK</option>
+                <option value="WRD">WEB & REACT (DIGITAL)</option>
+            </select>    
+        </div>
+        <div>
+            <label name="texto">Fale Sobre Você: </label>
+            <textarea name="texto" cols="50" rows="5">Isto é um Texto</textarea>
+        </div>
+        <div>
+            <input name="reset" type="reset" value="limpar"/>
+            <input name="submit" type="submit" value="submeter"/>
+        </div>
+        
+    </form>
+</body>
+</html>
