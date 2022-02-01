@@ -7,6 +7,15 @@
     <title>Desafio 07 - Imagem Dinâmica</title>
 </head>
 <body>
-    
+    <h1>A imagem irá trocar conforme o tamanho de tela aumentar ou diminuir</h1>
+
+    <picture>
+        <source media="(max-width: 250px)" srcset="img/gokumenor.jpg">
+        <source media="(max-width: 500px)" srcset="img/gokumedio.jpg">
+        <source media="(max-width: 750px)" srcset="img/gokumaior.png">
+        <source media="(max-width: 1000px)" srcset="img/gokumedio.jpg">
+        <img src="img/gokumenor.jpg" alt="Goku">
+
+    </picture>
 </body>
 </html>
