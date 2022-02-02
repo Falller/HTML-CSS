@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 167, 167);
+    width: 60vw;
+    height: auto;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+}
+
+.perfil {
+    align-items: center;
+    
+}
+
+.container p {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+.sobre {    
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linke {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.link {
+    align-items: center;
+}
