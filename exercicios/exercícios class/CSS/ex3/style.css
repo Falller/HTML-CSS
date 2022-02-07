@@ -1,0 +1,20 @@
+body {
+    background-color: #132e4c;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {  
+    background-image: linear-gradient(to right, #FDFDFD, #DEDEDE);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+a {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    text-decoration: none;
+}
