@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    background-color: dodgerblue;
+}
+
+.container > div {
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}

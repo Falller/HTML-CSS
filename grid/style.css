@@ -1,0 +1,83 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body, .grid {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0 3%;
+
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 80px 1fr 60px;
+
+
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 0 1%;
+    }
+
+    .grid {
+        grid-template-columns: 30% 70%;
+    }
+
+}
+
+header {
+    
+    background-color: green;
+    grid-column: 1 / 3;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color:  white;
+
+}
+
+header nav a:hover {
+    color: black
+}
+
+aside {
+    background-color: red;
+    grid-row: 2 / 4;
+    padding: 1.5em;
+}
+
+.link-indice {
+    text-decoration: none;
+    color: blue
+}
+
+main {
+    background-color: aqua;
+    padding: 2em;
+    overflow-y: scroll;
+    
+}
+
+footer {
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+

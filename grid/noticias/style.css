@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-column-gap: 0.5em;
+
+}
+
+.noticia {
+    background-color: #ddd;
+}
+
+.noticia img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.noticia-principal {
+    grid-column-start: 1; /*qual coluna começa*/
+    grid-column-end: 3; /*qual coluna termina*/
+    /*o conjunto dessas duas define quantas colunas o negócio irá ocupar */
+
+    grid-column: 1/span 3;
+}

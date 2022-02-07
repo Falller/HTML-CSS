@@ -1,0 +1,21 @@
+body {
+    
+    background-color: #132e4c;
+}
+
+.container {
+    
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(img/idea.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 200px;
+    margin: 0 auto;
+    
+        
+
+}
