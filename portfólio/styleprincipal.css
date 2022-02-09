@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+header {
+    background-color: #132e4c;
+    border: 2px solid black;
+    height: 15%;
+
+}
+
+main {
+    background-color: blueviolet;
+    border: 2px solid black;
+    height: 70%;
+}
+
+footer {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 15%;
+}
+
+aside {
+    border: 2px solid black;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+   
+}

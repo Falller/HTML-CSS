@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.marlon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+header .marlon h1 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: yellow
+}
+
+header .marlon h2 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: yellow
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+header nav a:hover {
+    color: white
+}

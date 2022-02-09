@@ -1,0 +1,33 @@
+html, body, .container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #132e4c;
+    height: 20%;
+}
+
+main {
+    background-color: #d3d3d3;
+    height: 60%;
+}
+
+footer {
+    background-color: #132e4c;
+    height: 20%;
+}
+
+.container {
+    border: 10px solid black;
+    max-width: 95%;
+    height: 100%;
+}

@@ -1,0 +1,82 @@
+main {
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.imagem {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    
+}
+
+.imagem img {
+    background-color: red;
+    width: 90%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    width: 60%;
+}
+
+.titulo {
+
+}
+
+.bolinhas {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.bol1 {
+    background-color: red;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bol2 {
+    background-color: red;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.bol3 {
+    background-color: red;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texto {
+
+}
