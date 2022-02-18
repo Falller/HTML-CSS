@@ -65,7 +65,8 @@
     }
 
     .copyrodape p {
-    font-size: 8px;
+    text-align: center;
+    font-size: 10px;
     }
 }
 
@@ -75,7 +76,8 @@
     }
 
     .copyrodape p {
-    font-size: 7px;
+    text-align: center;
+    font-size: 10px;
     }
 }
 
@@ -85,6 +87,7 @@
     }
 
     .copyrodape p {
-    font-size: 6px;
+    text-align: center;
+    font-size: 10px;
     }
 }
