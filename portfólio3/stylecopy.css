@@ -1,0 +1,90 @@
+
+.copyrodape p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 1300px) {
+
+    .copyrodape {
+        height: 60px;
+    }
+
+    .copyrodape p {
+    font-size: 15px;
+    }
+}
+
+@media (max-width: 1175px) {
+    .copyrodape {
+        height: 55px;
+    }
+
+    .copyrodape p {
+    font-size: 14px;
+    }
+}
+
+@media (max-width: 1125px) {
+    .copyrodape {
+        height: 50px;
+    }
+
+    .copyrodape p {
+    font-size: 13px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .copyrodape {
+        height: 45px;
+    }
+
+    .copyrodape p {
+    font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    .copyrodape {
+        height: 40px;
+    }
+
+    .copyrodape p {
+    font-size: 10px;
+    }
+}
+
+@media (max-width: 750px) {
+    .copyrodape {
+        height: 35px;
+    }
+
+    .copyrodape p {
+    font-size: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .copyrodape {
+        height: 35px;
+    }
+
+    .copyrodape p {
+    font-size: 7px;
+    }
+}
+
+@media (max-width: 530px) {
+    .copyrodape {
+        height: 35px;
+    }
+
+    .copyrodape p {
+    font-size: 6px;
+    }
+}

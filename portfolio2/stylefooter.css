@@ -10,22 +10,46 @@ footer {
     border: 1px solid beige;
     width: 20%;
     height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .email {
     border: 1px solid beige;
     width: 20%;
     height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.redes {
+.github {
     border: 1px solid beige;
     width: 20%;
     height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .copy {
     border: 1px solid beige;
     width: 20%;
     height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+}
+
+footer .icon img{
+    width: 100%;
+    height: 100%;
 }

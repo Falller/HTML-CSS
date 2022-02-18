@@ -1,0 +1,204 @@
+.topo {
+    display: flex;
+    width: 100%;
+}
+
+.nome {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    padding-left: 5%;
+    /*a caixa com nome fica no final do container, dentro dela tem uma div com as escritas h1 e h2*/
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+   
+    /*a caixa do menu, toma 60% do header, centralizado e com 5% de espaço na direita e na esquerda*/
+}
+
+.menu a {
+    padding-left: 10%;
+}
+
+.contnome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header .topo .nome .contnome h1 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: #f3b229;
+}
+
+header .topo .nome .contnome h2 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #f3b229;
+}
+
+header .topo nav a {
+    text-decoration: none;
+    color: #f3b229;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+header .topo nav a:hover {
+    color: white
+}
+
+@media (max-width: 1300px) {
+    body {
+        padding: 0 1%;
+    }
+
+    header {
+        height: 140px;
+    }
+
+    header .topo .nome .contnome h1 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: #f3b229;
+    }
+    
+    header .topo .nome .contnome h2 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        color: #f3b229;
+    }
+    
+    header .topo nav a {
+        text-decoration: none;
+        color: #f3b229;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    body {
+        padding: 0 1%;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    header .topo .nome .contnome h1 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: #f3b229;
+    }
+    
+    header .topo .nome .contnome h2 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: #f3b229;
+    }
+    
+    header .topo nav a {
+        text-decoration: none;
+        color: #f3b229;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 0 1%;
+    }
+
+    header {
+        height: 125px;
+    }
+
+    header .topo .nome .contnome h1 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        color: #f3b229;
+    }
+    
+    header .topo .nome .contnome h2 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: #f3b229;
+    }
+    
+    header .topo nav a {
+        text-decoration: none;
+        color: #f3b229;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    body {
+        padding: 0 1%;
+    }
+
+    .topo {
+        flex-direction: column;
+        align-items: center;
+        height: 120px;
+    }
+
+
+
+    .topo .nome {
+        justify-content: center;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 0;
+        height: 50%;
+    }
+
+    .topo .menu {
+        height: 50%;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    header .topo .nome .contnome h1 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+        color: #f3b229;
+    }
+    
+    header .topo .nome .contnome h2 {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: #f3b229;
+    }
+    
+    header .topo nav a {
+        text-decoration: none;
+        color: #f3b229;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+}
