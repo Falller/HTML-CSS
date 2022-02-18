@@ -23,7 +23,7 @@ header {
 main {
     background-color: #f3b229;
     width: 95%;
-    height: 700px;
+    height: auto;
 }
 
 footer {
